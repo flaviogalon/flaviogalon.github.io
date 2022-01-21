@@ -95,7 +95,6 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -234,7 +233,7 @@ blockquote {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -253,7 +252,7 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 

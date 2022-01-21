@@ -13,10 +13,10 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: backend, python, java, javascript, microservices, flavio, galon
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
+icon: 🐓 # the emoji used as the favicon
 url: https://flaviogalon.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -33,7 +33,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -59,7 +59,7 @@ linkedin_username: flaviogalon
 rss_icon: false
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
