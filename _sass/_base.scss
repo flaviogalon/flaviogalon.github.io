@@ -8,6 +8,10 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -119,6 +123,7 @@ blockquote {
     }
 }
 .navbar.navbar-light {
+  font-size: 1.3rem;
   a {
     &:hover {
       text-decoration: none;
@@ -252,7 +257,7 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 
