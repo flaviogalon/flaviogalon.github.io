@@ -383,11 +383,12 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
 }
 footer.fixed-bottom .container {
   color: var(--global-footer-text-color);
-  padding-top: 9px;
-  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 footer.fixed-bottom a {
   color: var(--global-footer-link-color);
@@ -399,8 +400,8 @@ footer.fixed-bottom a:hover {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 0.9rem;
 }
 
@@ -839,11 +840,13 @@ progress::-moz-progress-bar {
 .btn-group.dropdown .dropdown-item:hover {
   color: var(--global-hover-color);
 }
-.btn-group.dropdown .dropdown-item.active, .btn-group.dropdown .dropdown-item:active {
+.btn-group.dropdown .dropdown-item.active,
+.btn-group.dropdown .dropdown-item:active {
   background-color: var(--global-hover-color);
   color: var(--global-hover-text-color) !important;
 }
-.btn-group.dropdown .dropdown-item.active:hover, .btn-group.dropdown .dropdown-item:active:hover {
+.btn-group.dropdown .dropdown-item.active:hover,
+.btn-group.dropdown .dropdown-item:active:hover {
   color: var(--global-hover-text-color);
 }
 
@@ -889,7 +892,12 @@ nav[data-toggle=toc] .nav-link.active:hover {
 .post .post-content blockquote.block-tip p {
   color: var(--global-tip-block-text);
 }
-.post .post-content blockquote.block-tip h1, .post .post-content blockquote.block-tip h2, .post .post-content blockquote.block-tip h3, .post .post-content blockquote.block-tip h4, .post .post-content blockquote.block-tip h5, .post .post-content blockquote.block-tip h6 {
+.post .post-content blockquote.block-tip h1,
+.post .post-content blockquote.block-tip h2,
+.post .post-content blockquote.block-tip h3,
+.post .post-content blockquote.block-tip h4,
+.post .post-content blockquote.block-tip h5,
+.post .post-content blockquote.block-tip h6 {
   color: var(--global-tip-block-title);
 }
 .post .post-content blockquote.block-warning {
@@ -899,7 +907,12 @@ nav[data-toggle=toc] .nav-link.active:hover {
 .post .post-content blockquote.block-warning p {
   color: var(--global-warning-block-text);
 }
-.post .post-content blockquote.block-warning h1, .post .post-content blockquote.block-warning h2, .post .post-content blockquote.block-warning h3, .post .post-content blockquote.block-warning h4, .post .post-content blockquote.block-warning h5, .post .post-content blockquote.block-warning h6 {
+.post .post-content blockquote.block-warning h1,
+.post .post-content blockquote.block-warning h2,
+.post .post-content blockquote.block-warning h3,
+.post .post-content blockquote.block-warning h4,
+.post .post-content blockquote.block-warning h5,
+.post .post-content blockquote.block-warning h6 {
   color: var(--global-warning-block-title);
 }
 .post .post-content blockquote.block-danger {
@@ -909,7 +922,12 @@ nav[data-toggle=toc] .nav-link.active:hover {
 .post .post-content blockquote.block-danger p {
   color: var(--global-danger-block-text);
 }
-.post .post-content blockquote.block-danger h1, .post .post-content blockquote.block-danger h2, .post .post-content blockquote.block-danger h3, .post .post-content blockquote.block-danger h4, .post .post-content blockquote.block-danger h5, .post .post-content blockquote.block-danger h6 {
+.post .post-content blockquote.block-danger h1,
+.post .post-content blockquote.block-danger h2,
+.post .post-content blockquote.block-danger h3,
+.post .post-content blockquote.block-danger h4,
+.post .post-content blockquote.block-danger h5,
+.post .post-content blockquote.block-danger h6 {
   color: var(--global-danger-block-title);
 }
 
