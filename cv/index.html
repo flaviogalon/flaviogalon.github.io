@@ -11,9 +11,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with table of contents on a sidebar | Flavio Galon</title>
+    <title>cv | Flavio Galon</title>
     <meta name="author" content="Flavio Henrique Galon">
-    <meta name="description" content="an example of a blog post with table of contents on a sidebar">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -33,16 +34,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     
-    <!-- Sidebar Table of Contents -->
-    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet">
-    
 
     <!-- Styles -->
     
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%90%93&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://flaviogalon.github.io/blog/2023/sidebar-table-of-contents/">
+    <link rel="canonical" href="https://flaviogalon.github.io/cv/">
 
     <!-- Dark Mode -->
     
@@ -81,13 +79,13 @@
           </li>
           
           <!-- Blog -->
-          <!-- <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+          <!-- <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li> -->
 
           <!-- Other pages -->
-          <li class="nav-item ">
-            <a class="nav-link" href="/cv/">cv</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="/cv/">cv<span class="sr-only">(current)</span></a>
           </li>
 
           <!-- Toogle theme mode -->
@@ -114,75 +112,230 @@
   <!-- Content -->
   <div class="container mt-5">
     
-    
-    <div class="row">
-      <!-- sidebar, which will move to the top on a small screen -->
-      <div class="col-sm-3">
-        <nav id="toc-sidebar" class="sticky-top"></nav>
-      </div>
-      <!-- main content area -->
-      <div class="col-sm-9">
-        <!-- _layouts/post.html -->
-
+    <!-- _layouts/cv.html -->
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with table of contents on a sidebar</h1>
-    <p class="post-meta">April 25, 2023</p>
-    <p class="post-tags">
-      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          <a href="/blog/category/toc">
-          <i class="fas fa-tag fa-sm"></i> toc</a>  
-          <a href="/blog/category/sidebar">
-          <i class="fas fa-tag fa-sm"></i> sidebar</a>  
-          
-
-    </p>
+    <h1 class="post-title">Curriculum vitae <a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
+</h1>
+    <p class="post-description"></p>
   </header>
 
-  <article class="post-content">
+  <article>
+    <div class="cv">
+      
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Software Engineer</h3>
+        <div>
+          
+          <table class="table table-sm table-borderless table-responsive">
     
-    <div id="markdown-content">
-      <p>This post shows how to add a table of contents as a sidebar.</p>
-
-<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
-
-<p>To add a table of contents to a post as a sidebar, simply add</p>
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-  <span class="na">sidebar</span><span class="pi">:</span> <span class="s">left</span>
-</code></pre></div></div>
-<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change <code class="language-plaintext highlighter-rouge">left</code> to <code class="language-plaintext highlighter-rouge">right</code>.</p>
-
-<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h2 data-toc-text="Customizing" id="customizing-your-table-of-contents">Customizing Your Table of Contents</h2>
-
-<p>If you want to learn more about how to customize the table of contents of your sidebar, you can check the <a href="https://afeld.github.io/bootstrap-toc/" rel="external nofollow noopener" target="_blank">bootstrap-toc</a> documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.</p>
-
-<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold"><b>Full Name</b></td>
+        <td class="p-1 pl-2 font-weight-light text">Flavio Henrique Galon</td>
+      </tr>
+    
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold"><b>Nationality</b></td>
+        <td class="p-1 pl-2 font-weight-light text">Brazilian</td>
+      </tr>
+    
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold"><b>Date of Birth</b></td>
+        <td class="p-1 pl-2 font-weight-light text">21st October 1992</td>
+      </tr>
+    
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold"><b>Languages</b></td>
+        <td class="p-1 pl-2 font-weight-light text">Portuguese, English</td>
+      </tr>
+    
+</table>
+          
+        </div>
+      </div>
+      
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Experience</h3>
+        <div>
+          
+          <ul class="card-text font-weight-light list-group list-group-flush">
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2022 - Present
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Software Engineer</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">888Spectate, Dublin, Ireland</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2021-2022
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Software Engineer</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Dextra/CI&amp;T, Remote, Brazil</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2017-2021
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Software Engineer</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Agres, Curitiba, Brazil</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2017
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Intern</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Universidade Tecnológica Federal do Paraná, Curitiba, Brazil</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2015
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Intern</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Budapest University of Technology and Economics, Budapest, Hungary</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+    </ul>
+          
+        </div>
+      </div>
+      
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Education</h3>
+        <div>
+          
+          <ul class="card-text font-weight-light list-group list-group-flush">
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2010-2017
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Bachelor of Engineering - Electronic Engineering</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Universidade Tecnológica Federal do Paraná, Curitiba, Brazil</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+      <li class="list-group-item">
+        <div class="row">
+          
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                2014 - 2015
+              </span>
+            </div>
+          
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Exchange Program - Electronic &amp; Software Engineering</h6>
+            
+            
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Budapest University of Technology and Economics, Budapest, Hungary</h6>
+            
+            
+            
+          </div>
+        </div>
+      </li>
+    
+    </ul>
+          
+        </div>
+      </div>
+      
     </div>
   </article>
+
 </div>
 
-      </div>
-    </div>
-    
     
   </div>
 
@@ -210,9 +363,6 @@
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js"></script>
-  <!-- Sidebar Table of Contents -->
-  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-
 
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
