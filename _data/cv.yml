@@ -15,25 +15,28 @@
   contents:
     - title: Software Engineer
       institution: 888Spectate, Dublin, Ireland
-      year: 2022 - Present
-      description:
+      year: July 2022 - Present
+      description: As a software engineer (level 4) in Spectate I design, maintain and implement new features in Python 2 and 3 microservices.<br> As part of my daily tasks I interact with software architects, QAs and product owners in an scrum team.<br>&#x2022; REST API development and asynchronous job processing with Python 2 and 3, Twisted, Sanic, Redis, MySQL and ActiveMQ.<br>&#x2022; Unit tests with unittest and pytest.<br>&#x2022; Load tests with Locust.
 
     - title: Software Engineer
       institution: Dextra/CI&T, Remote, Brazil
       year: 2021-2022
+      description: At Dextra/CI&T I worked as a backend software engineer on international projects.<br> Worked with an USA based team developing microservices in Python 3 for the workspaces booking industry. In addition to designing, implementing, testing and maintaining features, I was directly involved in the adoption of event-driven architecture by the product's microservices.<br>&#x2022; REST API development in Python 3 with FastAPI, Pydantic, SQLAlchemy and Alembic.<br>&#x2022; Unit and integration tests with pytest.<br>&#x2022; AWS services such as Lambda Functions, EventBridge, Aurora (PostgreSQL), CloudWatch and System Manager.<br>&#x2022; IaC with Terraform.<br>&#x2022; Jenkins CI/CD pipelines and monitoring with DataDog.
 
     - title: Software Engineer
       institution: Agres, Curitiba, Brazil
       year: 2017-2021
+      description: As a software engineer at Agres I was a developer on several embedded, web and IoT software projects.<br> Amid my accomplishments, I'd highlight the delivery of an 1.5 year delayed project in 8 months after taking over as the development lead by coordinating redesign, refactoring and development of critical features.<br>&#x2022; Development of an IoT + web system for agricultural machinery tracking and management through UHF and LTE-M radio signals using Python 3.<br>&#x2022; Design and development of a microservices-based application for proprietary binary files upload, management that provides data visualization through interactive maps, dashboards, work report files and shapefile generation built in Angular 8, Typescript and Python 3. <br>&#x2022; Development of proprietary license files generation library in Java.<br>&#x2022; Development of internal web based licensing generation and management application in SpringBoot, Hibernate, PostgreSQL and AngularJS.<br>&#x2022; Azure and gitlab CI/CD pipelines.
 
     - title: Intern
       institution: Universidade Tecnológica Federal do Paraná, Curitiba, Brazil
       year: 2017
-      description:
+      description: As an intern at the Imaging and Electronic Instrumentation Laboratory I developed several digital image processing (DIP), computer vision (CV) and neural networks real time inference applications in C++ and Python 2. Furthermore, I acted as consultant for Master’s candidates on adapting DIP and CV pipelines to the NVIDIA TX1 embedded computing system.
 
     - title: Intern
       institution: Budapest University of Technology and Economics, Budapest, Hungary
       year: 2015
+      description: Intern at the Automation and Applied Informatics Department under a professor’s guidance. Among my activities, I was responsible for building automated performance analysis software for convolutional neural networks and natural language processing pipelines in Python 2.
 
 - title: Education
   type: time_table

@@ -17,8 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Backend software engineer with bachelor's degree in Electronics Engineering.
+Software engineer with 6+ years of experience. For the last 4 years I've been developing applications as a back-end developer mainly with Python.
 
-Skilled in Python, Javascript, Java, C and microservices serverless applications, as a software engineer I have had the opportunity to work on software architecture, development, testing, troubleshooting and deployment for embedded systems, IoT and web based software applications.
+I'm currently employed as a Software Engineer (level 4) at 888Spectate, where I actively collaborate with software architects on planning and designing, development and testing software. My tasks usually involve complex domain business logic and performance requirements that demands fast, clean and reliable software.
 
-<b>Interests:</b> Python, Microservices, SQL, Software Architecture
+<b>Skills:</b> Python 2/3, Javascript, SQL, NoSQL, Redis, Linux, Docker, microservices, asynchronous frameworks, AWS, data structures, geospatial data processing.
+
+<b>Interests:</b> Python, Rust, Microservices, SQL, Software Architecture.
