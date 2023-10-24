@@ -7,6 +7,7 @@ subtitle: Backend Software Engineer. <br> 🇧🇷 living in 🇮🇪
 profile:
   align: right
   image: prof_pic.jpg
+  image_title: Yes, that's Edinburgh, not Dublin. Don't tell anyone 😶
   image_circular: false # crops the image to make it circular
   address: >
     <p>Dublin, Ireland</p>
