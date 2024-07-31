@@ -1,4 +1,4 @@
-- title: Software Engineer
+- title: Senior Software Engineer
   type: map
   contents:
     - name: Full Name
@@ -13,10 +13,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Senior Software Engineer
+      institution: 888Spectate, Dublin, Ireland
+      year: 05.2024 - Present
+
     - title: Software Engineer
       institution: 888Spectate, Dublin, Ireland
-      year: July 2022 - Present
-      description: As a software engineer (level 4) in Spectate I design, maintain and implement new features in Python 2 and 3 microservices.<br> As part of my daily tasks I interact with software architects, QAs and product owners in an scrum team.<br>&#x2022; REST API development and asynchronous job processing with Python 2 and 3, Twisted, Sanic, Redis, MySQL and ActiveMQ.<br>&#x2022; Unit tests with unittest and pytest.<br>&#x2022; Load tests with Locust.
+      year: 07.2022 - 04.2024
+      description: As a software engineer (level 4) in Spectate I design, maintain and implement new features in Python 2/3 and Java microservices.<br> As part of my daily tasks I interact with software architects, QAs and product owners in an scrum team.<br>&#x2022; REST API development and asynchronous job processing with Python 2 and 3, Twisted, Sanic, Redis, MySQL and ActiveMQ.<br>&#x2022; Unit tests with unittest and pytest.<br>&#x2022; Load tests with Locust.
 
     - title: Software Engineer
       institution: Dextra/CI&T, Remote, Brazil
@@ -47,38 +51,3 @@
     - title: Exchange Program - Electronic & Software Engineering
       institution: Budapest University of Technology and Economics, Budapest, Hungary
       year: 2014 - 2015
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     -
